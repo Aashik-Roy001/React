@@ -1,0 +1,45 @@
+.board-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%; 
+}
+
+.square {
+    
+    border: 2px solid ;
+    height: 100px;
+    width: 100px;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer; 
+    transition: background-color 0.3s;
+}
+
+.board-container{
+    margin:50px;
+}
+    
+
+.square:hover {
+    background-color: #cdc9c9;
+}
+
+.square h2 {
+    font-size: 2rem;
+    margin: 0;
+}
+
+.board-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px;
+    
+}
+
+.board-wrapper h4{
+    font-size: x-large;
+}
